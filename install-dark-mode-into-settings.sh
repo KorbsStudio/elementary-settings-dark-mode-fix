@@ -21,6 +21,7 @@
         cd /usr/share/applications/
         sudo rm io.elementary.switchboard.desktop # This is back up first before deleting it
         sudo wget "https://raw.githubusercontent.com/KorbsStudio/elementary-settings-dark-mode-fix/master/io.elementary.switchboard.desktop"
+        sudo mv io.elementary.switchboard.desktops io.elementary.switchboard.desktop
 
     ) |
 zenity --progress --title "GUI Installer" \
