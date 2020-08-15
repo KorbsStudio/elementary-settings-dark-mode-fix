@@ -8,8 +8,9 @@
       return;
     fi
   done
-    echo "$appEntry" | sudo -S tee ${launcher}
-    (
+
+
+
         sudo mkdir /usr/share/korbs-studio/
         cd /usr/share/korbs-studio
         sudo wget "https://raw.githubusercontent.com/KorbsStudio/elementary-settings-dark-mode-fix/master/settings-dark-mode.sh"
@@ -23,10 +24,7 @@
         sudo wget "https://raw.githubusercontent.com/KorbsStudio/elementary-settings-dark-mode-fix/master/io.elementary.switchboard.desktop"
         sudo mv io.elementary.switchboard.desktops io.elementary.switchboard.desktop
 
-    ) |
-zenity --progress --title "GUI Installer" \
---width 500 --text "Installing..." --percentage=0
-clear
-zenity --info --pulsate --ellipsize --icon-name="preferences-desktop" --title="Job completed" --text="Dark Mode fixed on Settings"
+
 sudo -K
 clear
+echo "Done."
