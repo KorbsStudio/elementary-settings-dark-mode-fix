@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name[en_US]=Dark Mode for Wingpanel
+Comment[en_US]=sh /usr/share/korbs-studio/wingpanel-dark-mode.sh
+Exec=sh /usr/share/korbs-studio/wingpanel-dark-mode.sh
+Icon=/usr/share/icons/hicolor/scalable/apps/io.elementary.wingpanel.svg
+X-GNOME-Autostart-enabled=true
+Type=Application
