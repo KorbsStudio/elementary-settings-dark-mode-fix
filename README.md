@@ -18,4 +18,4 @@ This repo will be archived when [elementary OS 6.0](https://blog.elementary.io/d
 ### To Do List
 - [x] Fix dark mode for wingpanel
 - [ ] Fix dark mode for File Manager when it runs as admin
-- [ ] Fix dark mode for 
+- [ ] Fix dark mode for ScreenRec
