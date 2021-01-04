@@ -14,3 +14,8 @@ sh /usr/share/korbs-studio/wingpanel-dark-mode.sh
 ```
 
 This repo will be archived when [elementary OS 6.0](https://blog.elementary.io/dark-style-progress/) is released, as the new major update includes dark mode with the new stylesheet includes.
+
+### To Do List
+- [x] Fix dark mode for wingpanel
+- [ ] Fix dark mode for File Manager when it runs as admin
+- [ ] Fix dark mode for 
